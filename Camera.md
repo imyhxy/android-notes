@@ -8,4 +8,8 @@
 
 * `getFragmentManager().beginTransation().replace(<resource_id>, <fragment_object>).commit()`: 替换布局文件中的`fragment`对象。
 
-* 从APK的资源文件夹中读取文件：`new BufferedReader(new InputStreamReader(getAsset(<file_name>)))`
+* 从APK的资源文件夹中读取文件：`new BufferedReader(new InputStreamReader(getAsset(<file_name>)))`。
+
+* `postInvalidate`: 在主线程中更新UI，防止进程卡死。
+
+
