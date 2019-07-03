@@ -12,4 +12,9 @@
 
 * `postInvalidate`: 在主线程中更新UI，防止进程卡死。
 
+* `ImageView`: 设置`scaleType`时需要首先设置`ImageView`的长和宽，不然图片只会缩放到原始大小。
 
+* `final`: 
+  * 对一个类而言，是不可`extends`
+  * 对一个方法而言，是不可`Override`
+  * 对一个变量而言，是不可赋值
