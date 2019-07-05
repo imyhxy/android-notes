@@ -18,3 +18,5 @@
   * 对一个类而言，是不可`extends`
   * 对一个方法而言，是不可`Override`
   * 对一个变量而言，是不可赋值
+  
+* `View`：即使指定了`Height`和`Width`属性，`background`属性对于一个`View`也不起作用。
