@@ -20,3 +20,7 @@
   * 对一个变量而言，是不可赋值
   
 * `View`：即使指定了`Height`和`Width`属性，`background`属性对于一个`View`也不起作用。
+
+* `onInterceptTouchEvent`：阻止事件向子`View`传递。
+
+* `onTouchEvent`：阻止事件向父类`View`传递。
